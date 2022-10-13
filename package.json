@@ -17,5 +17,17 @@
   "devDependencies": {
     "eslint": "7",
     "eslint-config-next": "12.0.1"
-  }
+  },
+  "description": "You can see a demo of this repo on Replit : https://replit.com/@thatguyintech/BuyMeACoffee-Solidity-DeFi-Tipping-app",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alchemyplatform/RTW3-Week2-BuyMeACoffee-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alchemyplatform/RTW3-Week2-BuyMeACoffee-Website/issues"
+  },
+  "homepage": "https://github.com/alchemyplatform/RTW3-Week2-BuyMeACoffee-Website#readme"
 }
