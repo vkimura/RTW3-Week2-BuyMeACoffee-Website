@@ -6,7 +6,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   // Contract Address & ABI
-  const contractAddress = "0x182D7324b0d94788658C0a778E63F9cC432513F0";
+  // const contractAddress = "0x182D7324b0d94788658C0a778E63F9cC432513F0";
+  const contractAddress = "0x6f4066Fd194B2f404Da2859dBDbeEb70d671De17";
   const contractABI = abi.abi;
 
   // Component state
@@ -172,7 +173,7 @@ export default function Home() {
         {currentAccount ? (
           <div>
             <form>
-              <div class="formgroup">
+              <div className="formgroup">
                 <label>Name</label>
                 <br />
 
@@ -184,7 +185,7 @@ export default function Home() {
                 />
               </div>
               <br />
-              <div class="formgroup">
+              <div className="formgroup">
                 <label>Send Victor a message</label>
                 <br />
 
